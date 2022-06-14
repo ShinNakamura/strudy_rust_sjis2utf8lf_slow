@@ -1,0 +1,13 @@
+[package]
+name = "sjis2utf8lf_slow"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+encoding_rs = "0.8"
+encoding_rs_io = "0.1.7"
+
+[dev-dependencies]
+assert_cmd = "2"
